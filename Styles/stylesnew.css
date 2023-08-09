@@ -1,0 +1,379 @@
+h1,h4 {
+
+    color: #70869d;
+    letter-spacing: .15em;
+
+    text-shadow:
+        -1px -1px 1px #efede3,
+        0px 1px 0 #2e2e2e,
+        0px 2px 0 #2c2c2c,
+        0px 3px 0 #2a2a2a,
+        0px 4px 0 #282828,
+        0px 5px 0 #262626,
+        0px 6px 0 #242424,
+        0px 7px 0 #222,
+        0px 8px 0 #202020,
+        0px 9px 0 #1e1e1e,
+        0px 10px 0 #1c1c1c,
+        0px 11px 0 #1a1a1a,
+        0px 12px 0 #181818,
+        0px 13px 0 #161616,
+        0px 14px 0 #141414,
+        0px 15px 0 #121212,
+        2px 20px 5px rgba(0, 0, 0, 0.9),
+        5px 23px 5px rgba(0, 0, 0, 0.3),
+        8px 27px 8px rgba(0, 0, 0, 0.5),
+        8px 28px 35px rgba(0, 0, 0, 0.9);
+}
+h1:hover{
+    transition: 2.5s;
+    text-shadow: 0 0 30px #fff; 
+    
+}
+.text-effect { 
+    text-shadow: 0 0 30px #fff; 
+    transition: 2.5s;
+    }
+.estilo1 {
+    
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+}
+
+.estilo2 {
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.estilo3 {
+    align-items: flex-start;
+    color: #000000;
+    font-weight: bolder;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+.estilo3 ul {
+    list-style: none;
+}
+.th2 {
+    font-size: 30px;
+}
+.relieve :hover{
+    transition: 2.5s;
+    text-shadow: 0 0 30px #fff;
+}
+.relieve {
+    font-family: Arial Black;
+    font-weight: bold;
+    text-align: center;
+    background: #202020;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#t1 {
+    font-size: 18px;
+}
+
+#t2 {
+    font-size: 18px;
+}
+#t3{
+    color: #CCCCCC;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+}
+
+.aliniarIz {
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.titulo {
+    align-content: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+    max-width: 1500px;
+    padding: 40px auto;
+    width: 90%;
+}
+
+.zoom {
+    transition: transform .3s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.container-cards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+}
+.container-1{
+    display: grid;
+
+    align-items: center;
+    gap: 10px;
+    grid-template-columns:  repeat(2, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto; 
+}
+.container-2{
+    display: grid;
+
+    align-items: center;
+    gap: 10px;
+    grid-template-columns:  repeat(4, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto; 
+}
+.container-3{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:  repeat(2, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+}
+.container-4{
+    align-content: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+    max-width: 1500px;
+    padding: 40px auto;
+    width: 90%;
+}
+.button {
+    
+    background: rgb(168, 171, 175);
+    border: 1px solid black;
+    border-radius: 90px;
+    color: black;
+    cursor: pointer;
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+    width: 95%;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+
+}
+.button:hover {
+    transform: scale(1.1);
+    
+}
+h2 {
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #fff; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    }
+    h3{
+        color: #FFFFCC;
+         font-family: Arial, Helvetica, sans-serif; 
+        }
+p {
+            color: #CCCCCC;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: "Varela Round", sans-serif;
+        }
+        .Estilo23 {color: #FFFFFF; 
+            font-family: "Varela Round", sans-serif; 
+            font-weight: bold; }
+            ol{color: #CCCCCC;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: "Varela Round", sans-serif;}
+    .marco{
+            border: 1px solid rgb(255, 255, 255);
+    border-radius:10px;
+    }
+    #bot{
+        display: grid;
+
+        align-items: center;
+        gap: 10px;
+        grid-template-columns:  repeat(4, 1fr);
+        width: 90%;
+        max-width: 1000px;
+        margin: 1.6em auto; 
+    }
+    .cel {
+        align-content: center;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 2fr);
+        margin: 20px auto;
+        max-width: 1500px;
+        padding: 40px auto;
+        width: 90%;
+    }
+   /* .formulario{
+        border: 3px solid rgb(255, 255, 255);
+        border-radius:10px;
+       
+       
+        
+        margin: 10px auto;
+        max-width: 1500px;
+        padding: 25px 25px;
+        width: 90%;
+
+    }*/
+    #center{
+        align-content: center;
+    }
+    .centrado{
+        text-align:center;
+    }
+    /*input {
+        width: 90%;
+        height: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px 15px;
+        margin-bottom: 10px; ;
+      }*/
+/*#consulta{
+
+    resize: none;
+    height: 40px;
+    width: 355px;
+    width:90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom:10px ;
+
+}*/
+img.btn-whatsapp {
+    display: flex !important;
+    position:fixed;
+ width: 7%;
+    z-index: 99999;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 1px !important;
+}
+.fb-page{
+    display:flex;
+    width: 100%;
+    
+}
+
+/* Media Queries */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .container-4 {
+        align-content: center;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px auto;
+        max-width: 1500px;
+        padding: 40px auto;
+        width: 90%;
+    }
+    #cam{
+        display: flex;
+        width: 100%;
+    }
+   
+    .estilo1{
+        font-size: 45px;
+    }
+    .estilo2{
+        font-size:16px
+    }
+    .estilo3{
+        font-size:14px
+    }
+    .container-cards {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        max-width: 600px;
+        margin: 1.4em auto;
+    }
+    .container-1{
+        display: grid;
+    
+        align-items: center;
+        gap: 10px;
+        grid-template-columns:  repeat(1, 1fr);
+        width: 90%;
+        max-width: 1000px;
+        margin: 1.6em auto;
+    }
+.container-2{
+    display: grid;
+
+    align-items: center;
+    gap: 10px;
+    grid-template-columns:  repeat(2, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto; 
+
+}
+    .container-3{
+        display: grid;
+    
+        align-items: center;
+        gap: 10px;
+        grid-template-columns:  repeat(1, 1fr);
+        width: 90%;
+        max-width: 1000px;
+        margin: 1.6em auto;
+
+    }
+
+    .container-images {
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .zoom {
+        transition:none;
+    }
+    .marco{
+        border: none;
+    }
+    .titulo{grid-template-columns: repeat(1, 1fr);}
+        
+    
+}
